@@ -1,5 +1,5 @@
 <?php
-require '../functons.php';
+require '../functions.php';
 
 // read input file
 $lines = read_input('input.txt', true);
