@@ -1,9 +1,8 @@
 <?php
+require "../functons.php";
 
 // read input file
-$input = 'input.txt';
-$contents = file_get_contents($input);
-$lines = explode("\n", $contents);
+$lines = read_input('input.txt', true);
 
 $elfs = [];
 $tmp_elf = [];
