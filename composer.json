@@ -1,0 +1,8 @@
+{
+    "name": "steffex/advent-of-code-2022",
+    "description": "https://adventofcode.com/2022/",
+    "type": "project",
+    "require": {
+        "illuminate/collections": "^9.44"
+    }
+}
